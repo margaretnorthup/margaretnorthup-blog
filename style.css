@@ -1,1 +1,11 @@
-<link rel="stylesheet" href="style.css">
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #222;
+  color: #eee;
+}
+h1, h2, h3 {
+  color: #ffde59;
+}
+a {
+  color: #29a6ff;
+}
