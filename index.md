@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="assets/style.css">
+
+
 # Welcome to My Blog
 
 Hi, I’m Margaret. This is my space for sharing thoughts, stories, and helpful ideas as I reboot my journey toward independence and peace.
