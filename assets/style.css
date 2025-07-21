@@ -1,0 +1,73 @@
+body {
+  background: #23243a;
+  color: #f9f6fd;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #ffb8d1; /* pastel pink */
+  letter-spacing: 1px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #aeeeee; /* pastel blue */
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #bdfd6e; /* lime green */
+}
+
+header, nav, footer {
+  background: #292a3d;
+  color: #bdfd6e; /* lime green */
+  padding: 1em 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+button, .btn {
+  background: #bdfd6e;
+  color: #23243a;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #ffb8d1;
+  margin: 1em 0;
+}
+
+button:hover, .btn:hover {
+  background: #ffb8d1;
+  color: #23243a;
+}
+
+blockquote {
+  border-left: 4px solid #aeeeee;
+  background: #292a3d;
+  color: #bdfd6e;
+  padding: 1em;
+  font-style: italic;
+  margin: 1em 2em;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #292a3d;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffb8d1;
+  border-radius: 4px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
